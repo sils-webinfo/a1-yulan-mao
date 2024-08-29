@@ -22,3 +22,17 @@ PREFIX : <http://example.org/>
   :title "Understanding W.G. Sebald" ;
   :pages 193 ;
   :about :w-g-sebald .
+
+# Write Turtie statements describing the book Dark Secrets of Manning Hall by Nathaniel Hornblower, published by Random House in 1985.
+ :dark-secrets-of-manning-hall a :Book ;
+  :title "Dark Secrets of Manning Hall" ;
+  :author :nathaniel-hornblower ;
+  :published_by :random-house ;
+  :publication_year 1985 .
+
+:nathaniel-hornblower a :Author ;
+  :given_name "Nathaniel" ;
+  :surname "Hornblower" ;
+
+:random-house a :Publisher ;
+  :name "Random House" .
